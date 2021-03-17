@@ -17,16 +17,14 @@ import java.security.NoSuchAlgorithmException
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
+    private lateinit var mapView: MapView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(LayoutInflater.from(this))
         setContentView(binding.root)
-        val mapView = MapView(this)
-        mapView.setMapCenterPoint(MapPoint.mapPointWithGeoCoord(37.5514579595, 126.951949155),true)
-        mapView.setZoomLevel(7,true)
-        val mapViewContainer = binding.mapView
-        mapViewContainer.addView(mapView)
+
+        markOnMap()
         setMarker()
         getHashKey()
     }
@@ -50,13 +48,19 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    fun markOnMap() {
+        mapView = MapView(this)
+        val mapViewContainer = binding.mapView
+        mapViewContainer.addView(mapView)
+    }
+
     fun setMarker() {
         val marker = MapPOIItem()
-        val mapView = MapView(this)
         marker.itemName = "주예"
-        marker.tag = 0
+        marker.mapPoint = MapPoint.mapPointWithGeoCoord(37.5514579595, 126.951949155)
         marker.markerType = MapPOIItem.MarkerType.YellowPin
         mapView.addPOIItem(marker)
+        mapView.setMapCenterPoint(MapPoint.mapPointWithGeoCoord(37.5514579595, 126.951949155),true)
     }
 
 }
