@@ -25,8 +25,8 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
 
 
-   **:heavy_check_mark:** 프로젝트에 넣어줘야 할 파일은 다음과 같다. 
-    ![image](https://user-images.githubusercontent.com/58849278/111765244-7e235600-88e7-11eb-808a-a0bcabf226ea.png)
+ **:heavy_check_mark:** 프로젝트에 넣어줘야 할 파일은 다음과 같다. 
+ ![image](https://user-images.githubusercontent.com/58849278/111765244-7e235600-88e7-11eb-808a-a0bcabf226ea.png)
 
  **:heavy_check_mark:** 카카오맵을 불러온 뒤, 자신의 위치를 표시하는 마커를 추가하였다. 
  ![image](https://user-images.githubusercontent.com/58849278/111765345-972c0700-88e7-11eb-95d6-2b1de5441b79.png)
