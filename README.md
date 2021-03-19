@@ -26,7 +26,7 @@
 
 
    **:heavy_check_mark:** 프로젝트에 넣어줘야 할 파일은 다음과 같다. 
-    ![enter image description here](!%5Bimage%5D%28https://user-images.githubusercontent.com/58849278/111764832-00f7e100-88e7-11eb-80a9-562785aa4cf9.png%29)
+    ![image](https://user-images.githubusercontent.com/58849278/111765244-7e235600-88e7-11eb-808a-a0bcabf226ea.png)
 
  **:heavy_check_mark:** 카카오맵을 불러온 뒤, 자신의 위치를 표시하는 마커를 추가하였다. 
- ![enter image description here](!%5Bimage%5D%28https://user-images.githubusercontent.com/58849278/111765077-4b795d80-88e7-11eb-8ab9-ddf8ee6b0a84.png%29)
+ ![image](https://user-images.githubusercontent.com/58849278/111765345-972c0700-88e7-11eb-95d6-2b1de5441b79.png)
